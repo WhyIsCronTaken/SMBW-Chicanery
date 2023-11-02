@@ -1,0 +1,87 @@
+Cron's Save Data Documentation (W.I.P.)
+by whycron
+———————————————————————————————————————————————————
+Equipped Badge Data
+game_data.sav: 
+$16B8-$16BB
+game_account.sav: 
+$01C4-$01C7
+
+Action Badges
+46 1E 3D 7E = No Badge
+54 60 E8 A8 = Parachute Cap
+BA 1A 1B E4 = Wall-Climb Jump
+70 3A 68 2A = Dolphin Kick
+7B 25 CC 6B = Floating High Jump
+7D 80 C1 88 = Crouching High Jump
+42 65 66 3A = Timed High Jump
+A3 3B 13 CD = Fast Dash
+8C E1 75 25 = Grappling Vine
+A5 64 A6 62 = Boosting Spin Jump
+
+Boost Badges
+EA 48 0E 6A = Coin Reward
+E2 86 70 B7 = Auto Super Mushroom
+73 3F BD 25 = Add ! Blocks
+9F 90 C3 64 = Safety Bounce
+80 61 7A 89 = Rhythm Jump
+22 B3 4A 1F = Sensor
+B1 18 BC 20 = Coin Magnet
+62 86 15 C0 = All Elephant Power
+AC C1 45 8F = All Fire Power
+CA 3F 59 DF = All Bubble Power
+BD 47 64 8B = All Drill Power
+
+Expert Badges
+3E CE 24 21 = Jet Run
+9A 78 F7 E9 = Spring Feet
+A6 68 96 54 = Invisibility
+2E 23 87 C9 = Sound Off?
+
+Notes:
+Badges can only be equipped if they are unlocked.
+———————————————————————————————————————————————————
+Selected Character Data
+game_data.sav: 
+$1690-$1693 (P1)
+$1694-$1697 (P2)
+$1698-$169B (P3)
+$169C-$169F (P4)
+
+game_account.sav:
+$01BC-$01BF (P1)
+
+27 4D C1 43 = Mario
+B8 2E CA 8C = Luigi
+E5 1D 23 2C = Peach
+34 83 24 64 = Daisy
+56 0F BD 69 = Yellow Toad
+BE 64 D0 FB = Blue Toad
+33 96 BC F5 = Toadette
+56 4A DE CA = Yoshi
+0D 23 72 59 = Red Yoshi
+A9 91 80 8C = Yellow Yoshi
+B5 83 B1 B3 = Light-Blue Yoshi
+7B E6 1F 37 = Nabbit
+
+Notes: 
+game_account.sav only saves player 1, to display on the file select.
+———————————————————————————————————————————————————
+Power-Up State Data
+game_data.sav:
+$16FC-$16FF (P1)
+$1700-$1703 (P2)
+$1704-$1707 (P3)
+$1708-$170B (P4)
+
+2D 01 0B 39 = Small
+9E 16 D5 A0 = Super
+3F 90 4A A3 = Elephant
+61 81 D3 4D = Fire
+B1 C8 A0 F2 = Bubble
+25 B1 39 48 = Drill
+———————————————————————————————————————————————————
+Coin Counts Data
+game_data.sav: 
+$08AC (Coins [8-bit])
+$0894 (Flower Coins [16-bit, little endian byte order])
